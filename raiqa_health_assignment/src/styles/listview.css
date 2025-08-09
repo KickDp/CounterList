@@ -1,0 +1,80 @@
+.list-container {
+  background: white;
+  box-shadow: 8px -5px 8px rgba(0,0,0,0.5);
+  border-radius: 15px;
+  padding: 15px;
+  width: 100%;
+  max-width: 350px;
+  margin: 20px auto 0;
+}
+
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-buttons button {
+  margin-left: 8px;
+}
+
+.reset-btn {
+  background-color: #fee2e2;
+  color: #dc2626;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.sort-btn {
+  background-color: #ed7700;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.number-list {
+  list-style: none;
+  padding: 0px;
+  margin-top: 5px;
+}
+
+.number-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  border-bottom: 3px solid rgb(255, 115, 0);
+  border-radius: 20px;
+  margin-bottom: 8px;
+}
+.number-item span{
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  color: gray;
+  font-size: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.delete-btn:hover {
+  color: red;
+  transform:translateX(-5px)
+}
+
+.total-count {
+  margin-top: 10px;
+  font-size: 14px;
+  color: rgb(240, 130, 4);
+  background-color: rgb(49, 55, 53);
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10px;
+}
